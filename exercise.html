@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <title>Exercise Page</title>
+  <style>
+    .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: Black;
+            position: sticky;
+            top: 0;
+            margin-left: -8px;
+            margin-right: -8px;
+            margin-top: -8px;
+            width: 100%;
+            color: white;
+	    display : flex;
+	justify-content : space-betweeen;
+        }
+     .nav-right{
+             list-style-type: none;
+            margin: 0;
+            padding: 0;
+      }
+      .nav-right li{
+           float: left;
+            padding: 7px;
+            border-radius: 5px;
+       }
+      .nav-right li a{
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 12px 15px;
+            transition: 0.8s;
+            padding: 7px
+         } 
+       .nav-right li a:hover{background-color: aquamarine;
+            transition: 0.5s;
+            font-size: 18px;
+            border-radius: 5px;
+            color: black;}
+
+
+        .nav li {
+            float: left;
+            padding: 7px;
+            border-radius: 5px;
+        }
+        .nav li a {
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 12px 15px;
+            transition: 0.8s;
+            padding: 7px;
+        }
+
+        .nav li a:hover {
+            background-color: aquamarine;
+            transition: 0.5s;
+            font-size: 18px;
+            border-radius: 5px;
+            color: black;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: Black;
+            min-width: 140px;
+            position: fixed;
+            padding: 7px;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: aquamarine;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footercontentright:hover{
+          cursor:pointer;
+        }
+
+        .footercontent,
+        .footercontentright {
+            font-size: 18px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footercontent h2,
+        .footercontent h4,
+        .footercontentright h2 {
+            margin: 0;
+        }
+
+        .footercontent li,
+        .footercontentright li {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .footercontent {
+            margin-right: 30%;
+        }
+
+        .footercontentright {
+            text-align: right;
+
+        }
+    .container {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+    
+  </style>
+</head>
+
+<body>
+<div class="navbar">
+<div class="nav-left">
+  <ul class="nav">
+    <li ><a href="WEB DEVELOPMENT_2.html" style="color:white">Home</a></li>
+    <li><a href="About Us.html" style="color:white">About Us</a></li>
+    <li class="dropdown">
+    <a>Programs</a>
+    <div class="dropdown-content">
+    <a href="food.html" style="color:white">Food</a>
+    <a href="exercise.html" style="color:white">Exercise</a>
+    <a href="yoga.html" style="color:white">Yoga</a>
+    <a href="gym.html" style="color:white">Gym</a>
+    </div>
+    </li>
+    <li><a href="CONTACT_US.html" style="color:white">Contact Us</a></li>
+  </ul>
+</div>
+  <div class="nav-right">
+  <ul class="nav-right">
+    <li style="float:right;"><a href="sign_Up.html" style="background-color: white;cursor:pointer; color:black; border-radius: 5px; width: auto; max-height:auto;">Sign up</a></li>
+    <li style="float:right;cursor:pointer;"><a href="Sign_In.html">Sign in</a></li>
+    </ul>
+  </div>
+</div>
+  <br>
+
+  <div class="container">
+    <h1>Exercise</h1>
+    <div>
+      <img class="img-fluid"
+        src="https://www.usdermatologypartners.com/wp-content/uploads/2020/09/Master-Blast-Skin-Care-Goals-Healthy-Diet.jpeg"
+        width="500">
+      <h4>Why is exercise so important for seniors?</h4>
+      <p>Whether you were once much more physically active or have never been one to exercise regularly, now is a great
+        time to start an exercise and fitness regimen. Getting and staying in shape is just as important for seniors as
+        it is for younger people.
+        <br>
+        <br>
+        Why is exercise important for older people? Getting your heart rate up and challenging your muscles benefits
+        virtually every system in your body and improves your physical and mental health in myriad ways. Physical
+        activity helps maintain a healthy blood pressure, keeps harmful plaque from building up in your arteries,
+        reduces inflammation, improves blood sugar levels, strengthens bones, and helps stave off depression. In
+        addition, a regular exercise program can make your sex life better, lead to better quality sleep, reduce your
+        risk of some cancers, and is linked to longer life.
+        <br>
+        <br>
+        Many older adults hesitate to get moving because they’re unfamiliar with the types of exercise and fitness that
+        are effective and safe, and aren’t sure how much exercise they need to do. The good news is that any kind of
+        movement is better than being sedentary, so there’s nothing wrong with starting small and working your way up to
+        longer workouts. Your goal should be no less than 150 minutes of moderate intensity activity per week, but if
+        you can’t start at that level, work up to it (and then past it). While there are many dedicated forms of
+        exercise and fitness for adults, you also want to stay physically active throughout the day by taking the
+        stairs, doing yard work, and playing with your grandkids.
+        <br>
+        <br>
+        When it comes to exercise and fitness for seniors, most can begin without consulting a doctor—but there are
+        exceptions. If you have a major health condition like diabetes, high blood pressure, heart or lung disease,
+        osteoprosis or a neurological disease, definitely talk to your doctor first. People with mobility issues such as
+        poor balance or arthritis should also get advice from their doctor.
+      </p>
+      <h4>What are the best types of exercise?</h4>
+      <img class="img-fluid"
+        src="https://www.mensjournal.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2MTM3MTk4MzAyMjA5NTQx/beastmode.jpg"
+        width="500">
+      <p>While there are endless forms of exercise, experts categorize physical activity into four broad types based on
+        what each calls upon your body to do and how the movement benefits you.
+        <br>
+        <br>
+        Aerobic exercise is marked by an increased heart rate. Although most aerobic exercises require you to move your
+        whole body, the main focus is on your heart and lungs (Aerobic exercise is often called “cardio” because it
+        challenges and benefits your cardiovascular system). Activities like walking, swimming, dancing and cycling, if
+        done at sufficient intensity, get you breathing faster and your heart working harder. Aerobic exercises burn
+        fat, improve your mood, reduce inflammation and lower blood sugar.
+        <br>
+        <br>
+        Strength training, sometimes called resistance training, should be performed two to three times a week. Squats,
+        lunges, push-ups and the exercises performed on resistance machines or using weights or bands help maintain and
+        even build muscle mass and strength. Strength training also helps prevent falls, keep bones strong, lower blood
+        sugar levels, and improve balance. Do a combination of both isometric and isotonic exercises. Isometric
+        exercises, such as doing planks and holding leg lifts, are done without movement. They are great for maintaining
+        strength and improving stability. Isotonic exercises require you to bear weight throughout a range of motion.
+        Bicep curls, bench presses and sit-ups are all forms of isotonic exercise.
+        <br>
+        <br>
+        Stretching exercises keep your muscles and tendons flexible, preserve your posture, and improve mobility,
+        especially as you age. Stretching can be done every day.
+        <br>
+        <br>
+        Balance exercises call on the various systems that help you stay upright and oriented, such as those of the
+        inner ear, vision and muscles and joints. Tai chi and yoga are great forms of balance exercises that can help
+        you avoid falls and stay independent well into your senior years.
+      </p>
+      <h4>How much exercise do I need?</h4>
+      <img class="img-fluid"
+        src="https://domf5oio6qrcr.cloudfront.net/medialibrary/5450/conversions/h0219a16207258427278-thumb.jpg"
+        width="500">
+      <p>How much exercise you should be getting depends on several factors, including your current level of fitness,
+        your fitness goals, the types of exercise you’re planning to do, and whether you have deficits in such areas as
+        strength, flexibility or balance.
+        <br>
+        <br>
+        As a general rule, 150 minutes of moderate intensity aerobic activity (or 75 minutes of vigorous exercise) is
+        recommended as a weekly minimum. As you become more fit, you’ll want to exceed that in order to reap maximum
+        benefit. A natural way of splitting up the 150 minutes might be to do a 30-minute session five times per week,
+        or you can break it up and do two 15-minute sessions during a single day. Adopt whatever schedule fits your
+        lifestyle.
+        <br>
+        <br>
+        For strength exercises, aim to work all your major muscle groups twice to three times each week, leaving 48
+        hours between each workout for recovery. If you do “total-body” workouts, that’s two sessions per week. If you
+        choose to split your workouts to target a specific muscle group (e., “leg day”), that will require more
+        frequent workouts. Just make sure you’re leaving 48 hours of rest before you re-work a major muscle.
+        <br>
+        <br>
+        If you have noticed problems with your balance, such as unsteadiness, dizziness, or vertigo, talk to a
+        healthcare provider for recommendations about balance-specific exercises. Get in three half-hour workouts each
+        week in addition to a 30-minute walk at least twice weekly.
+        <br>
+        <br>
+        It’s best to stretch after you have warmed up for a few minutes, or perform stretching exercises after you
+        completed your workout. When stretching each muscle group, take it slow and steady, release, repeat again.
+        <br>
+        <br>
+        But how much exercise is too much? You should expect a little muscle soreness after workouts, especially in the
+        beginning. But if you find that your body is simply not recovering between workouts, you may be overtraining.
+        Remember that seniors need more recovery time than younger people. With the exception of “welcome” muscle
+        soreness, an exercise program should make you feel good. If it doesn’t, you’re probably overdoing it. That
+        doesn’t mean you should quit, only that you should dial back the intensity or frequency of your workouts until
+        you hit the “sweet spot” in which you’ve “tired out” your body but then recovered enough to tackle your next
+        session with enthusiasm.
+      </p>
+      <h4>What are the benefits of exercise?</h4>
+      <img class="img-fluid"
+        src="https://www.researchgate.net/publication/327588398/figure/fig1/AS:1004441322930180@1616488881902/What-are-the-benefits-of-physical-activity.ppm"
+        width="500">
+      <p>A smartly designed exercise program will benefit your body and mind in innumerable ways.
+        <br>
+        <br>
+        The benefits of exercise on mental health are well documented. For example, one major study found that sedentary
+        people are 44% more likely to be depressed. Another found that those with mild to moderate depression could get
+        similar results to those obtained through antidepressants just by exercising for 90 minutes each week. The key
+        appears to be the release of brain chemicals such as serotonin and dopamine, which help lift mood and combat
+        stress.
+        <br>
+        <br>
+        We’re all familiar with exercise’s ability to improve cardiovascular health. But how does exercise lower blood
+        pressure? Interestingly, when you stimulate your circulatory system through aerobic exercise, you’re temporarily
+        increasing your blood pressure by forcing the system to work harder—but when you’ve finished exercising, your
+        blood pressure drops to a lower level than it was before you began.
+        <br>
+        <br>
+        Many people think of exercise as an integral part of weight loss—and, although diet is also extremely important,
+        they’re not wrong. But what exercise burns the most calories? Generally, aerobic exercises (cardio) are great
+        for expending calories and reducing fat. But don’t overlook the effectiveness of strength training, which
+        optimizes your body’s ratio of lean muscle to fat (It’s also the best exercise for bone strength). There’s no
+        Holy Grail when it comes to a single best weight-loss exercise. The best exercise to lose weight is the one
+        you’ll do consistently. Whatever gets your heart rate up and gets your body moving—while having fun and staying
+        motivated—is the exercise that will help you shed pounds.
+      </p>
+
+      <p>Learn more about the benefits of exercise and how it can positively impact your life.</p>
+    </div>
+    <a href="https://www.health.harvard.edu/topics/exercise-and-fitness" target="_blank">
+      <button>Learn More</button>
+  </div>
+  <footer>
+    <ul class="footercontent">
+        <li>
+            <h2 style="color:white">My Fitness Journey</h2>
+        </li>
+        <li>
+            <h4 style="color:white">Find your way to stay healthy</h4>
+        </li>
+    </ul>
+    <ul class="footercontentright">
+        <li>
+            <h2 style="color:white">Programs</h2>
+        </li>
+        <li><a href="food.html"  style="color:white">Food</a></li>
+        <li><a href="exercise.html"  style="color:white">Exercise</a></li>
+        <li><a href="yoga.html" style="color:white">Yoga</a></li>
+        <li><a href="gym.html"  style="color:white">Gym</a></li>
+    </ul>
+    <ul class="footercontentright">
+        <li>
+            <h2>Resources</h2>
+        </li>
+        <li><a href="#"  style="color:white">Blog</a></li>
+        <li><a href="CONTACT_US.html" style="color:white">Contact Us</a></li>
+    </ul>
+    <ul class="footercontentright">
+        <li>
+            <h2>Company</h2>
+        </li>
+        <li><a href="About US.html" style="color:white">About Us</a></li>
+        <li><a href="#" style="color:white">Careers</a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

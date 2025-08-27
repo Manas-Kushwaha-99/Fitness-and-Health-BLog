@@ -62,9 +62,7 @@ No advanced steps — just a static website!
 
 ## 🎬 Preview
 
-Drop your project preview GIF below if you want:
-
-![Project Preview](preview.gif)
+![Webpage (1)](https://github.com/user-attachments/assets/b9aad5c0-88ab-47cd-b0ec-bc06acfe26fa)
 
 ---
 

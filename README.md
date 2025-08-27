@@ -2,8 +2,6 @@
 
 A basic website we built two years ago for learning and fun. It covers simple info about fitness, food, exercise, yoga, and gym basics.
 
-![Project Preview](preview.gif) <!-- Replace with your GIF file if you want a visual preview -->
-
 ---
 
 ## 📝 Overview
